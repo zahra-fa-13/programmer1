@@ -1,0 +1,124 @@
+.about-me {
+    font-size: 63px;
+    color: #10439F;
+    padding-left: 79px;
+    line-height: 67px;
+}
+
+.man {
+    border-radius: 208px 208px 1px 1px;
+    filter: brightness(0.5);
+}
+
+.above {
+    font-size: 23px;
+    color: #E65C19;
+    padding-left: 79px;
+    padding-top: 25px;
+    line-height: 36px;
+}
+
+.aboves {
+    font-size: 23px;
+    color: #E65C19;
+    padding-left: 79px;
+    padding-top: 25px;
+    line-height: 36px;
+}
+
+.my-ideas {
+    font-size: 56px;
+    color: #10439F;
+    padding-left: 79px;
+    padding-top: 38px;
+    line-height: 67px;
+}
+
+.khas {
+    background: linear-gradient(36deg, #3134b1, #406dc0);
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+.pas-tozigat {
+    font-size: 23px;
+    color: #E65C19;
+    line-height: 42px;
+    text-align: center;
+}
+
+.buity {
+    color: #E65C19;
+    background: linear-gradient(36deg, #3134b1, #406dc0);
+    border-radius: 50px;
+    font-size: 19px;
+    padding: 25px;
+    align-items: center;
+}
+
+.nature {
+    background: #406dc0;
+    color: #E65C19;
+    padding-bottom: 19px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    p {
+        text-align: center;
+        padding-top: 35px;
+        font-size: 34px;
+    }
+}
+
+.bor-ra {
+    border-radius: 10px;
+}
+
+
+
+.yeksan{
+    padding: 0;
+}
+.yeksan ul {
+    top: 0;
+    list-style: none;
+    padding: 0px 435px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    transition: color 0.5s;
+    background: linear-gradient(to left, #ffb3c8, #C65BCF);
+}
+.yeksan li {
+    list-style: none;
+    padding: -1px 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+.yeksan ul li::after {
+    content: "";
+    background: #32012F;
+    width: 90px;
+    height: 48%;
+    border-radius: 29px;
+    position: absolute;
+    top: 96%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+.ja-jadid{
+    padding-top: 109px;
+}
+.babajan{
+    padding-top: 109px;
+}

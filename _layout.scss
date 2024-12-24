@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box !important;
+}
+[lang="fa-IR"]{
+    direction: rtl;
+}
+[lang*="en"]{
+    direction: ltr;
+}
+.rtl{
+    direction: rtl;
+}
+.ltr{
+    direction: ltr;
+}
+p{
+    text-align: justify;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
